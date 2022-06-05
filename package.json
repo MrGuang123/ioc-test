@@ -1,0 +1,25 @@
+{
+  "name": "ioc-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "inversify": "^6.0.1",
+    "reflect-metadata": "^0.1.13"
+  },
+  "dependencies": {
+    "@types/esprima": "^4.0.3",
+    "@types/estree": "^0.0.51",
+    "@types/koa-router": "^7.4.4",
+    "esprima": "^4.0.1",
+    "inversify-binding-decorators": "^4.0.0",
+    "inversify-koa-utils": "^1.0.0",
+    "koa-router": "^10.1.1"
+  }
+}
